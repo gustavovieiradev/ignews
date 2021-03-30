@@ -1,5 +1,7 @@
+import styled from '../styles/home.module.scss';
+
 export default function Home() {
   return (
-    <h1>Hello world</h1>
+    <h1 className={styled.title}>Hello world</h1>
   )
 }
